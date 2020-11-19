@@ -14,13 +14,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html {
-  font-family: 'Gentium Basic', serif;
-  font-family: 'Nobile', sans-serif;
   font-family: 'Raleway', sans-serif;
   line-height: 26px;
   background-color: #EECDD6
 }
-
+@supports (display: grid) {
+  html {
+    padding: 20px;
+  }
+}
 h1 {
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
@@ -28,7 +30,7 @@ h1 {
  h2{
    font-family: 'Lato', sans-serif;
  }
-nav{ 
+nav{
   color: #1f0300;
   font-weight: bold;
   background-color: #990033;

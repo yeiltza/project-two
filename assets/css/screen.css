@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&family=Nobile:ital,wght@1,400;1,500&family=Raleway:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('//basehold.it/25');
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -20,19 +21,21 @@ html {
   line-height: 25px;
   background-color: #EECDD6
 }
-
+@supports (display: grid) {
+  html {
+    padding: 20px;
+  }
+}
 h1 {
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
  }
  h2{
-
+   font-family: 'Lato', sans-serif;
  }
 nav{
   color: #1f0300;
   font-weight: bold;
-  padding-top: 5px;
-  line-height: 16px;
   background-color: #990033;
   opacity: 0.75;
   border-spacing: 10px;

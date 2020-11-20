@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 @import url("//basehold.it/26");
 
@@ -21,21 +21,15 @@ html {
 h1 {
   text-align: center;
   font-family: "Merriweather Sans", sans-serif;
- }
-h2{
-   font-family: "Lato", sans-serif;
- }
-nav{
+}
+h2 {
+  font-family: "Lato", sans-serif;
+}
+nav {
+  display: flex;
   color: #1f0300;
   font-weight: bold;
   background-color: #990033;
   opacity: 0.75;
-  border-spacing: 10px;
-  border-width: medium;
-  border-style: double;
   border-color: #ffe099;
-
-}
-#books {
-
 }

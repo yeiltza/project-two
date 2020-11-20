@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&display=swap');
 @import url("//basehold.it/26");
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -30,6 +31,6 @@ nav {
   color: #1f0300;
   font-weight: bold;
   background-color: #990033;
-  opacity: 0.75;
+  opacity: 0.55;
   border-color: #ffe099;
 }

@@ -27,10 +27,14 @@ h2 {
   font-family: "Lato", sans-serif;
 }
 nav {
-  display: flex;
+  display:
   color: #1f0300;
   font-weight: bold;
   background-color: #990033;
   opacity: 0.55;
   border-color: #ffe099;
+  padding-left: 10px;
+}
+.nav a {
+  text-decoration: none;
 }

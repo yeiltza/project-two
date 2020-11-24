@@ -17,6 +17,7 @@ html {
   text-align: left;
   font-family: "Raleway", sans-serif;
   line-height: 26px;
+  font-size: 16px;
   background-color: #EECDD6;
 }
 h1 {
@@ -36,13 +37,16 @@ h2 {
   background-color: #990033;
   opacity: 0.55;
   border-color: #ffe099;
-
+}
+.nav li {
+  padding-bottom: 26px;
 }
 img {
   display: block;
   max-width: 80%;
   border: 1px solid #EEE;
   box-sizing: border-box;
+  float: right;
 }
 
 /*nav .li{

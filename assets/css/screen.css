@@ -22,27 +22,38 @@ html {
 h1 {
   text-align: center;
   font-family: "Merriweather Sans", sans-serif;
+  padding: 26px;
 }
 h2 {
   font-family: "Lato", sans-serif;
+  padding: 26px:
 }
 .nav a {
   text-decoration: none;
   color: #1f0300;
+  font-size: 18px;
   font-weight: bold;
   background-color: #990033;
   opacity: 0.55;
   border-color: #ffe099;
-  padding-left: 10px;
 
 }
+img {
+  display: block;
+  max-width: 80%;
+  border: 1px solid #EEE;
+  box-sizing: border-box;
+}
+
 /*nav .li{
   display: flex;
   flex-direction: row;
 }
+*/
 
-/*@media screen and (min-width: 500px) { /*510/16=31.875*/
- /*.nav {
+@media screen and (min-width: 500px) { /*510/16=31.875*/
+  .nav {
     display: flex;
     justify-content: center;
+    flex: 1 1 auto;
   }
